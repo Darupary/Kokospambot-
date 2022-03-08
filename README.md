@@ -1,8 +1,7 @@
 # 🔥 𝕶𝖔𝖐𝖔 𝖘𝖕𝖆𝖒 𝖇𝖔𝖙𝖘 🔥
 ## ☯︎ Dᴇᴘʟᴏʏ Oɴ Hᴇʀᴏᴋᴜ ☯︎
 
-[![🔥Dᴇᴘʟᴏʏ🔥](https://www.herokucdn.com/deploy/button.svg)(https://heroku.com/deploy?template=https://github.com/Darupary/Kokospambot-)
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Darupary/kokospambot-) 
 -------
 
 
